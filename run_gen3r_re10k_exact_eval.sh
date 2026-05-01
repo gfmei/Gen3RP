@@ -59,6 +59,5 @@ python tools/eval_gen3r_exact_metrics.py \
   --manifest "${OUT_ROOT}/prepared/manifest_exact_with_preds.json" \
   --out_json "${OUT_ROOT}/metrics.json" \
   --image_size 560 \
-  --device cuda \
   --compute_lpips \
   --compute_fid
